@@ -78,10 +78,11 @@ In log you can also find History table CHF records for the last year in slightly
 
 #### Allure report
 - Execute console command to build Allure report `gradle allureReport` in project root directory
-- Wait until finished
 - Check site built in "build/reports/allure-report/allureReport"
 - Open "build/reports/allure-report/allureReport/index.html" in chrome
 - Review Allure report with cucumber steps
+<br>
+!!If allure shows blank report, this may may happen on some PC because of path, execute `gradle allureServe` and report open at once.
 
 In allure report you can also see History table CHF records for the last year in slightly different format.
 <br>
